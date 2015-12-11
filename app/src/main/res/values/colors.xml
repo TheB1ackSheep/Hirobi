@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="main_menu_bg">#FFC400</color>
+
+
+
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+
+    <color name="grey_800">#424242</color>
+
+    <color name="menu_text_primary">@color/grey_800</color>
+
+    <color name="menu_button">@color/blue_grey_800</color>
+    <color name="menu_button_shadow">@color/blue_grey_900</color>
+    <color name="menu_button_text">#B0BEC5</color>
+</resources>

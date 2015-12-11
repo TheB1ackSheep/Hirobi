@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_menu_bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/AppName"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:textColor="@color/menu_text_primary"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <falook.hirobi.ui.FlatButton
+            android:id="@+id/btn_singleplayer"
+            android:layout_width="159dp"
+            android:layout_height="72dp"
+            android:layout_margin="5dp"
+            custom:bg_color="@color/menu_button"
+            custom:shadow="@color/menu_button_shadow"
+            custom:text="@string/MenuSinglePlayer"
+            custom:src="@drawable/icon_singleplayer"
+            custom:text_color="@color/menu_button_text"
+            custom:text_size="50"
+            />
+
+        <falook.hirobi.ui.FlatButton
+            android:id="@+id/btn_multiplayer"
+            android:layout_width="144dp"
+            android:layout_height="72dp"
+            android:layout_margin="5dp"
+            custom:bg_color="@color/menu_button"
+            custom:shadow="@color/menu_button_shadow"
+            custom:text="@string/MenuMultiPlayer"
+            custom:src="@drawable/icon_multiplayer"
+            custom:text_color="@color/menu_button_text"
+            custom:text_size="50"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
